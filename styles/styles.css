@@ -1,0 +1,130 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.row {
+    margin-right: 0px !important; 
+    margin-left: 0px !important;
+}
+.header{
+	background: url(../images/head-bg.png) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 365px;
+}
+.header nav{
+	margin-top: 20px;
+}
+.header nav a{
+	padding: 5px 10px;
+	color: #909090;
+	font-size: 15px;
+	text-decoration: none;
+}
+.header nav a:hover{
+	color: #fff;
+}
+.content{
+	background-color: #fff;
+	width: 100%
+}
+.content h2{
+	margin-top: 55px;
+	font-size: 32px;
+}
+.content p{
+	margin-top: 10px;
+	font-size: 17px;
+	border-bottom: solid 1px #bababa;
+	padding-bottom: 50px;
+}
+.content span{
+	font-size: 14px;
+	color: #7f7f7f;
+}
+.sidebar{
+	background-color: #f6f6f6;
+	width: 100%;
+}
+.sidebar .about{
+	margin-top: 55px;
+}
+.sidebar .about h3{
+	font-size: 15px;
+	margin-top: 10px;
+}
+.sidebar .about p{
+	font-size: 15px;
+	color: #5b5b5b;
+}
+
+.footer{
+	background-color: #00a2f2;
+	width: 100%;
+	height: 180px;
+}
+.last-footer{
+	background-color: #018dd2;
+	width: 100%;
+	height: 70px;
+	position: absolute;
+
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
